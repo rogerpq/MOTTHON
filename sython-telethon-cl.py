@@ -53,19 +53,19 @@ try:
         id_bot = data['id_bot']
 except FileNotFoundError:
     api_id = int(input(A+"❖ Inter Your App ID ➜  "+X))
-    print('  ')
+    print(' 17968886 ')
     api_hash = input(A+"❖ Inter Your App HASH ➜  "+X)
-    print('  ')
+    print(' 30a048ee00be01dcffb0fa28895ad3f4 ')
     bot_token = input(A+"❖ Inter Your Token ➜  "+X)
-    print('  ')
+    print(' 6277195513:AAFPB39X5TMBbxHI2N8kWxXVE6GfH6r4TzY ')
     DEVLOO = input(A+"❖ Inter Id Off Controller Account ➜  "+X)
-    print('  ')
+    print(' 2073200386 ')
     MAX_ACCOUNTS = int(input(A+"❖ Inter Num Of Max Acc ➜  "+X))
-    print('  ')
+    print(' 300 ')
     user_bot = input(A+"❖ Inter Your user bot ➜  "+X)
-    print('  ')
+    print(' motrmatrobot ')
     id_bot = int(input(A+"❖ Inter id bot ➜  "+X))
-    print('  ')
+    print(' 6277195513 ')
     
     data = {
         'api_id': api_id,
