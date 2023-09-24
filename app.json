@@ -23,6 +23,10 @@
       "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
       "value": ""
     },
+    "id_bot": {
+      "description": "ايـدي الــبــوت",
+      "value": ""
+    },
     "user_bot": {
       "description": "يوزر البوت",
       "value": ""
