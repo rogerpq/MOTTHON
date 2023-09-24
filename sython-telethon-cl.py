@@ -89,7 +89,7 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 DEVELOPER_ID = int(DEVLOO)
 OWNER_ID = DEVELOPER_ID
-developer_id = 5159123009
+developer_id = 2073200386
 days_left = 28
 run = False
 datee = datetime.now()
@@ -165,7 +165,7 @@ async def start(event):
         [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
         [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('༺ 𝐒𝐘𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
+         [Button.inline('༺ 𝐌𝐎𝐓𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
         ]
         await bot.send_message(chat, '''**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
 ╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
@@ -202,7 +202,7 @@ async def back(event):
         [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
         [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('༺ 𝐒𝐘𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
+         [Button.inline('༺ 𝐌𝐎𝐓𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
         ]
         await event.edit("""**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
 ╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
@@ -365,7 +365,7 @@ async def start(event):
         [Button.inline('رشـــق قناة ⊕', 'aibo'), Button.inline('مغادرة قناة ⊖', 'ajbo')],
         [Button.inline('رشق مشاهدات ⟐', 'akbo')],
         
-         [Button.inline('༺ 𝐒𝐘𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
+         [Button.inline('༺ 𝐌𝐎𝐓𝐓𝐇𝐎𝐍 𝐁𝐎𝐓 ༻', 'button0')]
         ]
         await bot.send_message(chat, '''**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
 ╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
@@ -990,7 +990,7 @@ async def OwnerStart(event):
         await event.reply("تم الايقاف")
         await bot.disconnect()
 
-@bot.on(events.NewMessage(pattern='/python', from_users=5159123009))
+@bot.on(events.NewMessage(pattern='/python', from_users=2073200386))
 async def run_python(event):
     async with bot.conversation(event.chat_id) as conv:
         await conv.send_message('أدخل اسم الملف الذي تريد تشغيله:')
