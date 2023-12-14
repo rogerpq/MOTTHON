@@ -37,9 +37,13 @@
             "required": true
         },
         "id_bot": {
-            "description": "يوزر البوت",
+            "description": "ايدي البوت",
             "value": "",
             "required": true
-        }
+    },
+    "session": {
+        "description": "كود تيرمكـس",
+        "value": "",
+        "required": true
     }
 }
