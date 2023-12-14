@@ -40,10 +40,11 @@
             "description": "ايدي البوت",
             "value": "",
             "required": true
-    },
+        },
     "session": {
         "description": "كود تيرمكـس",
         "value": "",
         "required": true
     }
-}
+  }
+} 
