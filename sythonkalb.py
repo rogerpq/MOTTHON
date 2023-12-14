@@ -203,15 +203,18 @@ omr9 = """**مرحبا بك في قسم تحويل النقاط
 • @XNSEX21BOT - `/pt4 + عدد النقاط`**"""
 
 
-omr10 = sython1 = TelegramClient(StringSession(session), api_id, api_hash)
-
+sython1 = TelegramClient(StringSession(session), api_id, api_hash)
+session = os.environ.get("session")
+SESSION = os.environ.get("session")
+bot_token = os.environ.get("bot_token")
+bot = TelegramClient("bot", api_id, api_hash).start(bot_token=token)
 
 
 
 ispay = ['yes']
 ispay2 = ['yes']
 
-sython1.start()
+bot.start()
 c = requests.session()
 bot_username = '@EE'
 bot_usernamee = '@A_MAN9300BOT'
